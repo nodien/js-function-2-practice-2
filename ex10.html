@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ex10: Character Count in Array</title>
+</head>
+<body>
+  <h1>Exercise 10: Character Count in Array</h1>
+  <script>
+    function countChar(arr, char) {
+      let count = 0;
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === char) count++;
+      }
+      return count > 0 ? count : -1;
+    }
+    let chars = ['a', 'b', 'c', 'a', 'd', 'a'];
+    let result = countChar(chars, 'a');
+    document.write("Count of 'a': " + result);
+  </script>
+</body>
+</html>

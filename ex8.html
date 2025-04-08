@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ex8: Swap Two Numbers</title>
+</head>
+<body>
+  <h1>Exercise 8: Swap Two Numbers</h1>
+  <script>
+    function swap(a, b) {
+      let temp = a;
+      a = b;
+      b = temp;
+      return [a, b];
+    }
+    let result = swap(3, 9);
+    document.write("Swapped: a = " + result[0] + ", b = " + result[1]);
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ex5: Is Digit</title>
+</head>
+<body>
+  <h1>Exercise 5: Is Digit</h1>
+  <script>
+    function isDigit(char) {
+      return !isNaN(char) && char.trim() !== "";
+    }
+    document.write("'5' is digit? " + isDigit('5') + "<br>");
+    document.write("'x' is digit? " + isDigit('x') + "<br>");
+  </script>
+</body>
+</html>
